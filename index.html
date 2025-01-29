@@ -1,0 +1,125 @@
+---
+layout: default
+title: "My Portfolio"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <style>
+    body {
+      background: url('hello.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ffccff;
+    }
+
+    .photo-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .photo-container img {
+      border-radius: 50%;
+      width: 200px; 
+      height: 200px; 
+      object-fit: cover;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .media-list ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .media-list li {
+      margin: 5px 0;
+    }
+
+    .media-list li::before {
+      content: "→ ";
+      color: #ffccff;
+    }
+
+    .challenge {
+      background-color: #ff66cc;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <section class="section">
+    <h2>Medha Majumdar</h2>
+    <div class="photo-container">
+      <img src="dp.png" alt="My Photo">
+    </div>
+    <p>I am in this class to learn more about web development and digital content creation. I enjoy building projects and exploring new technologies!</p>
+  </section>
+
+  <section class="section">
+    <h2>My Media Consumption and Creation</h2>
+    <div class="media-list">
+      <h3>Music</h3>
+      <ul>
+        <li>Pop music (e.g. Ariana Grande, Billie Eilish)</li>
+        <li>Indie rock (e.g. Tame Impala, Arctic Monkeys)</li>
+      </ul>
+      
+      <h3>Games</h3>
+      <ul>
+        <li>PC games (e.g. The Witcher 3, Stardew Valley)</li>
+        <li>Mobile games (e.g. Candy Crush, Among Us)</li>
+      </ul>
+      
+      <h3>Still Images</h3>
+      <ul>
+        <li>Photography (landscape, street photography)</li>
+        <li>Artwork (digital paintings and illustrations)</li>
+      </ul>
+
+      <h3>Moving Images</h3>
+      <ul>
+        <li>TV Shows (e.g. Stranger Things, Andor)</li>
+        <li>Movies (e.g. Marvel Cinematic Universe, horror films)</li>
+      </ul>
+
+      <h3>Devices</h3>
+      <ul>
+        <li>Cell Phone (social media apps, YouTube, Spotify)</li>
+        <li>Smart TV (Netflix, Disney+)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Challenge with Tools/Software/Hardware</h2>
+    <div class="challenge">
+      <p>One of the challenges I face with content creation is ensuring my software and hardware stay up-to-date. Sometimes, my computer struggles with processing power when I use resource-heavy tools like video editing software or graphic design programs. This makes the workflow slow and sometimes leads to crashes, which can be frustrating.</p>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
