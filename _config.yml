@@ -1,0 +1,5 @@
+title: My Portfolio
+description: A showcase of my work and media consumption
+url: https://your-username.github.io
+baseurl: /cnm  # this can be left as is or adjust based on your repo URL structure
+theme: jekyll-theme-slate  # Optional: use a simple theme or customize later
